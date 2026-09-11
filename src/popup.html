@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Freelancermap Auto Checkboxes</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1>Auto Checkboxes</h1>
+      <p>
+        Diese Extension aktiviert auf freelancermap.de und freelancermap.ch automatisch Checkboxen,
+        deren Label einen der konfigurierten Begriffe enthält. Das funktioniert auch bei nachträglich
+        geöffneten Projektmodals.
+      </p>
+
+      <form id="term-form">
+        <label for="term-input">Suchbegriff hinzufügen</label>
+        <div class="add-row">
+          <input id="term-input" type="text" autocomplete="off" placeholder="z. B. Portfolio">
+          <button type="submit">Hinzufügen</button>
+        </div>
+      </form>
+
+      <ul id="term-list" aria-label="Konfigurierte Suchbegriffe"></ul>
+
+      <div class="actions">
+        <button id="reset-button" type="button">Standards wiederherstellen</button>
+      </div>
+
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

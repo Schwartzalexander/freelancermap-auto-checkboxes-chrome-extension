@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Freelancermap Auto Checkboxes",
+  "description": "Aktiviert passende Checkboxen in Freelancermap-Projektmodals automatisch.",
+  "version": "1.0.0",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://www.freelancermap.de/*",
+    "https://www.freelancermap.ch/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.freelancermap.de/*",
+        "https://www.freelancermap.ch/*"
+      ],
+      "js": ["src/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Freelancermap Auto Checkboxes",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
