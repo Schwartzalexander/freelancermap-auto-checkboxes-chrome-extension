@@ -1,4 +1,4 @@
-const DEFAULT_TERMS = ["AGB", "allgemeine Geschaeftsbedingungen", "allgemeine Geschäftsbedingungen", "Referenz", "CV-en", "CV-de"];
+const DEFAULT_TERMS = ["AGB", "allgemeine Geschaeftsbedingungen", "allgemeine Geschäftsbedingungen", "Datenschutz", "Referenz", "CV-en", "CV-de"];
 const STORAGE_KEY = "checkboxTerms";
 
 let activeTerms = DEFAULT_TERMS;

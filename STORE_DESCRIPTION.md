@@ -8,7 +8,7 @@ Automatically checks configured attachment and consent checkboxes in Freelancerm
 
 Freelancermap Auto Checkboxes helps reduce repetitive clicks when applying to projects on `freelancermap.de` and `freelancermap.ch`.
 
-When a project modal opens, the extension automatically selects checkboxes whose label matches configured terms. The default terms include `AGB`, `allgemeine Geschäftsbedingungen`, `Referenz`, `CV-en`, and `CV-de`.
+When a project modal opens, the extension automatically selects checkboxes whose label matches configured terms. The default terms include `AGB`, `allgemeine Geschäftsbedingungen`, `Datenschutz`, `Referenz`, `CV-en`, and `CV-de`.
 
 You can customize the matching terms directly from the extension popup:
 

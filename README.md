@@ -9,6 +9,7 @@ The extension watches Freelancermap pages for newly opened project modals and ch
 - `AGB`
 - `allgemeine Geschaeftsbedingungen`
 - `allgemeine Geschäftsbedingungen`
+- `Datenschutz`
 - `Referenz`
 - `CV-en`
 - `CV-de`
