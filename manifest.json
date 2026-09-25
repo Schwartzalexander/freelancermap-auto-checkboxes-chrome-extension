@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Freelancermap Auto Checkboxes",
   "description": "Aktiviert passende Checkboxen in Freelancermap-Projektmodals automatisch.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "permissions": ["storage"],
   "host_permissions": [
     "https://www.freelancermap.de/*",

@@ -29,13 +29,45 @@ label {
   font-weight: 700;
 }
 
+.toggle-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 0 0 16px;
+  padding: 10px;
+  border: 1px solid #ded8ee;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 400;
+}
+
+.toggle-row input {
+  flex: 0 0 auto;
+  width: auto;
+  margin-top: 3px;
+}
+
+.toggle-row strong,
+.toggle-row small {
+  display: block;
+}
+
+.toggle-row strong {
+  margin-bottom: 3px;
+}
+
+.toggle-row small {
+  color: #4f596d;
+  font-size: 12px;
+}
+
 .add-row,
 li {
   display: flex;
   gap: 8px;
 }
 
-input {
+#term-input {
   min-width: 0;
   flex: 1;
   padding: 8px;
